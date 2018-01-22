@@ -4,3 +4,10 @@
 (1)SpringbootApplication的main方法启动
 (2)进入项目目录mvn spring-boot:run
 (3)项目打包成jar后运行：java -jar xxxx.jar
+
+4.可在application.properties中写配置项，也可在application.yml中写配置项
+5.配置项可用@Value注解获取，也可写一个配置项类，并用@ConfigurationProperties标明此类为配置项类
+6.在application-dev.yml,application-prod.yml等文件中指定不同运行环境的配置
+可在application.yml中的spring.profiles.active中指定当前环境
+或者java -jar xxxx.jar --spring.profiles.active=xxx指定环境
+

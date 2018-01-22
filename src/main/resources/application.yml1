@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: prod
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+    check-template-location: true
+    content-type: text/html
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
