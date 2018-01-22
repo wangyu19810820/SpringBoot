@@ -1,0 +1,6 @@
+1.idea新建项目,类型选择Spring Initializr
+2.新建Controller，加注解@RestController注解。方法加@RequestMapping注解。
+3.启动方式有多种：
+(1)SpringbootApplication的main方法启动
+(2)进入项目目录mvn spring-boot:run
+(3)项目打包成jar后运行：java -jar xxxx.jar
